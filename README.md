@@ -1,2 +1,2 @@
 # jqs
-jason query shell, using groovy Console to run json queries on files
+json query shell, using groovy Console to run json queries on files
