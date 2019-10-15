@@ -1,0 +1,15 @@
+{
+	"file": "two.json",
+	"top": "two",
+	"when": "never",
+	"ones": [
+		{
+			"example": "first",
+			"date": "today"
+		},
+		{
+			"example": "second",
+			"date": "tomorrow"
+		}
+	]
+}

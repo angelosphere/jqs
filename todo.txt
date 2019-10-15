@@ -1,0 +1,2 @@
+[] https://www.baeldung.com/guide-to-jayway-jsonpath
+[] https://github.com/json-path/JsonPath#what-is-returned-when - Typerefs and predicates
