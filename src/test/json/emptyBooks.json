@@ -1,0 +1,21 @@
+{
+    "tool": 
+    {
+        "jsonpath": 
+        {
+            "creator": 
+            {
+                "name": "Jayway Inc.",
+                "location": 
+                [
+                    "Malmo",
+                    "San Francisco",
+                    "Helsingborg"
+                ]
+            }
+        }
+    },
+ 
+    "book": 
+    [ ]
+}
