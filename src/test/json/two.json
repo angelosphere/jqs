@@ -4,12 +4,17 @@
 	"when": "never",
 	"ones": [
 		{
-			"example": "first",
+			"example": "example from two.json",
 			"date": "today"
 		},
 		{
 			"example": "second",
 			"date": "tomorrow"
 		}
-	]
+	],
+	"trailing": "more stuff",
+	"rest": {
+		"oops": "he said oops",
+		"bark": "the dog barked"
+	}
 }

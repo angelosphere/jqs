@@ -1,7 +1,11 @@
 package priv.aos.jqs;
 
-import com.jayway.jsonpath.DocumentContext;
-import com.jayway.jsonpath.JsonPath;
+import java.io.IOException;
+
+import com.fasterxml.jackson.core.JsonPointer;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.node.ArrayNode;
 
 /**
  * scratch pad for java code, because groovy code completion is not working
@@ -9,7 +13,13 @@ import com.jayway.jsonpath.JsonPath;
  *
  */
 public class Scratch {
-	public static void main(String[] args) {
-
+	public static void main(String[] args) throws IOException {
+		ObjectMapper om = new ObjectMapper();
+		String text = "{ \"top\": [] }";
+		JsonPointer x = JsonPointer.compile("/top");
+		JsonNode node = om.readTree(text);
+		Object res = node.at(x);
+		node.size();
+		System.out.print(res);
 	}
 }

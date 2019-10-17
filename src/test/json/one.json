@@ -1,5 +1,11 @@
 {
 	"file": "one.json",
 	"top" : "one",
-	"date": "today"
+	"date": "today",
+	"ones": [],
+	"trailing": "more stuff",
+	"rest": {
+		"oops": "he said OOPS, once",
+		"bark": "the dog barked, once"
+	}
 }

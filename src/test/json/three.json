@@ -4,12 +4,19 @@
 	"when": "another day",
 	"ones": [
 		{
-			"example": "first",
+			"example": "example from three.json",
 			"date": " not today"
 		},
 		{
 			"example": "second",
 			"when": "tomorrow"
 		}
-	]
+	],
+	"trailing": "trailing threee",
+	"rest": {
+		"oops": "!oops",
+		"bark": "three barks"
+	},
+	"book": 
+    [ ]
 }
